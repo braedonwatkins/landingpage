@@ -7,7 +7,46 @@ body {
   flex-direction: column;
 }
 
+ul {
+  display: flex;
+  list-style: none;
+  gap: 16px
+}
+
+a {
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.intro {
+  /* display: flex; */
+  flex: 1 1 auto;
+
+  background-color: #1F2937;
+  color: white;
+}
+
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+} 
+
+
+.content {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.quote {
+  display: flex;
+  flex: 1 1 auto;
+
+  background-color: #E5E7EB;
+}
+
+/* .header {
   height: 72px;
   background: darkmagenta;
   color: white;
@@ -36,9 +75,10 @@ body {
 
   flex-shrink: 0;
   padding: 16px;
-}
+} */
 
-.card {
+/* reused code */
+/* .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
@@ -46,11 +86,9 @@ body {
   padding: 16px;
   margin: 16px;
   width: 300px;
-}
+} */
 
-/* My Solution */
-
-ul {
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -67,14 +105,7 @@ a {
 }
 
 
-.content {
-  display: flex;
-  flex: 1 1 auto;
-}
-
 .container {
   display: flex;
   flex-wrap: wrap;
-
-  /* padding: 32px; */
-}
+} */
