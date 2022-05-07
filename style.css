@@ -163,6 +163,7 @@ button.signup {
   min-width: 500px;
   max-height: 300px;
 
+  font-weight: lighter;
   text-align: left;
 }
 
