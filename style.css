@@ -1,7 +1,7 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 
   display: flex;
   flex-direction: column;
@@ -43,17 +43,9 @@ a {
 .subheader {
   display: flex;
   justify-content: center;
-  /* flex: 1 1 auto; */
-
 
   padding: 128px 0px;
 }
-
-/* .subheader-left {
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
-} */
 
 button.signup {
   padding: 0px 24px;
@@ -94,10 +86,18 @@ button.signup {
 
 .content {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   flex: 1 1 auto;
 
-  margin: 0px 256px;
+  padding: 64px 256px;
+  gap: 32px;
+}
+
+.con-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
   gap: 32px;
 }
 
@@ -110,14 +110,14 @@ button.signup {
   text-align: center;
 }
 
-.content-title {
+.con-title {
+  white-space: nowrap;
+
   display: flex;
   justify-content: center;
-
-  padding: 64px 0px;
 }
 
-.title-con {
+.con-title-title {
   font-size: 36px;
   color: #1F2937;
 }
@@ -127,7 +127,7 @@ button.signup {
   max-width: 200px;
 }
 
-.img-con {
+.con-img {
   width: 150px;
   height: 150px;
 
@@ -138,70 +138,39 @@ button.signup {
 .quote {
   display: flex;
   flex: 1 1 auto;
+  padding: 0px 256px;
 
   background-color: #E5E7EB;
 }
 
-/* .header {
-  height: 72px;
-  background: darkmagenta;
-  color: white;
-
+.quote-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 16px;
-  font-size: 32px;
-  font-weight: 900;
-}
-
-.footer {
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
-
-  display: flex;
-  align-items: center;
+  
   justify-content: center;
-}
+  align-items: center;
 
-.sidebar {
-  width: 300px;
-  background: royalblue;
-
-  flex-shrink: 0;
-  padding: 16px;
-} */
-
-/* reused code */
-/* .card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
-
-  padding: 16px;
-  margin: 16px;
-  width: 300px;
-} */
-
-/* ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 16px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-
-.container {
-  display: flex;
   flex-wrap: wrap;
+}
+
+.quote-title {
+  /* padding: 32px 0px 0px 0px; */
+  font-size: 36px;
+
+  text-align: left;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 24px;
+}
+
+/* .modal {
+  background: #3882F6;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  display: flex;
+  gap: 16px;
+  padding: 16px;  
 } */
