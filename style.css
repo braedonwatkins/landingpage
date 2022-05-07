@@ -111,6 +111,19 @@ button.signup {
   gap: 52px;
 }
 
+.info {
+  flex-wrap: wrap;
+  max-width: 200px;
+}
+
+.img-con {
+  max-width: 200px;
+  max-height: 200px;
+
+  border: 5px solid #3882F6;
+  border-radius: 16px;
+}
+
 .quote {
   display: flex;
   flex: 1 1 auto;
