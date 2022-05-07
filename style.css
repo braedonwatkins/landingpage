@@ -111,6 +111,16 @@ button.signup {
   gap: 52px;
 }
 
+.content-title {
+  display: flex;
+  justify-content: center;
+}
+
+.title-con {
+  font-size: 36px;
+  color: #1F2937;
+}
+
 .info {
   flex-wrap: wrap;
   max-width: 200px;
