@@ -114,6 +114,8 @@ button.signup {
 .content-title {
   display: flex;
   justify-content: center;
+
+  padding: 64px 0px;
 }
 
 .title-con {
@@ -127,8 +129,8 @@ button.signup {
 }
 
 .img-con {
-  max-width: 200px;
-  max-height: 200px;
+  width: 150px;
+  height: 150px;
 
   border: 5px solid #3882F6;
   border-radius: 16px;
