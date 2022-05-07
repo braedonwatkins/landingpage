@@ -138,6 +138,7 @@ button.signup {
 .quote {
   display: flex;
   flex: 1 1 auto;
+  justify-content: center;
   padding: 0px 256px;
 
   background-color: #E5E7EB;
@@ -155,6 +156,8 @@ button.signup {
 .quote-title {
   /* padding: 32px 0px 0px 0px; */
   font-size: 36px;
+  min-width: 500px;
+  max-height: 300px;
 
   text-align: left;
 }
@@ -164,13 +167,27 @@ button.signup {
   font-size: 24px;
 }
 
-/* .modal {
+.modal {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 64px 256px;
+}
+
+
+.modal-popup {
+
   background: #3882F6;
-  width: 480px;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 
   display: flex;
   gap: 16px;
   padding: 16px;  
-} */
+}
+
+button.modal-signup {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
