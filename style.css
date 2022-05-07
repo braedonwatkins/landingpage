@@ -9,10 +9,12 @@ body {
 
 ul {
   display: flex;
-  list-style: none;
+  gap: 16px;
   margin: 0;
   padding: 0;
-  gap: 16px
+
+  list-style: none;
+  white-space: nowrap;
 }
 
 a {
@@ -31,13 +33,15 @@ a {
   display: flex;
   justify-content: space-between;
 
-  gap: 64px;
+  gap: 128px;
 } 
 
 .subheader {
   display: flex;
-  flex: 1 0 auto;
-  
+  justify-content: center;
+  /* flex: 1 1 auto; */
+
+
   padding: 128px 0px;
 }
 
@@ -72,13 +76,12 @@ button.signup {
 }
 
 .subheader-right {
-
   padding-left: 16px;
 }
 
 .img {
-  height: auto;
-  width: auto; /* ie8 */
+  /* height: auto;
+  width: auto\9; ie8 */
 
   max-width: 500px;
   min-width: 300px;
