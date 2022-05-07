@@ -187,6 +187,7 @@ button.signup {
   /* gap: 16px; */
 
   /* min-width: 1000px; */
+  
 
 
   padding: 32px 100px;  
@@ -195,6 +196,8 @@ button.signup {
 .modal-container {
   display: flex;
   flex-direction: column;
+
+  white-space: nowrap;
 }
 
 button.modal-signup {
